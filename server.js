@@ -23,5 +23,6 @@ router.get('/test', function(req, res){
 
 
 app.use('/api', router);
-app.listen(port);
-console.log('8080 so magic');
+app.listen(app.get('port'),function(){
+    console.log('Node app is running on port', app.get('port'));
+});
