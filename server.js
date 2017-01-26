@@ -1,4 +1,7 @@
 var express = require('express'); // dependency
+var fs = require('fs');
+var request = require('request');
+var cheerio = require('cheerio');
 var app = express(); // add the object
 var router = express.Router();
 app.set('views', __dirname + '/views');
@@ -12,15 +15,44 @@ app.get('/', function(req,res){
 });
 
 
+router.get('/db_update',function(req,res){
+    var dept_url = 'http://course-query.acad.ncku.edu.tw/qry/';
 
-router.get('/test', function(req, res){
-    res.json({"message": "hello test"});
+    request(dept_url, function(error, response, html){
+        if(!error){
+            var $ = cheerio.load(html);
+            var list = [];
+            var dept_name, dept_code, category, whole_dept_name;
+            var json = { "dept_name": "", "dept_code": "" , "category": ""};
+
+            $('ul[id="dept_list"]').find('li').each(function(index,element){
+                category = $(element).find('.theader').attr('title');
+                $(element).find('.tbody').find('.dept').each(function(index,element){
+                    whole_dept_name = $(element).find('a').text();
+                    console.log("類別" + category +"部門"+ whole_dept_name);
+                });
+                $(element).find('.tbody').find('.institute').each(function(index,element){
+                    whole_dept_name = $(element).find('a').text();
+                    console.log("類別" + category +"研究所"+ whole_dept_name);
+                });
+            })
+
+
+
+        }
+    });
+
 });
 
 
 
 
 
+
+
+router.get('/test', function(req, res){
+    res.json({"message": "hello test"});
+});
 
 app.use('/api', router);
 app.listen(app.get('port'),function(){
