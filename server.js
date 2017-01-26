@@ -70,7 +70,7 @@ router.get('/db_update',function(req,res){
                         var course_json = { "dept_code":"", "serial_number":"", "course_code":"", "grade":"", "course_name":"","class_time":[],"location":""};
                         var time_json = {"course_day":"","course_start":"","course_end":""};
                         $('table').find('.tbody').find('.tr').filter(function(){
-                            return 
+                            return ($(this).attr('class') === 'course_y1'); // todo y2 y3 y4 y0
                         })
                     }
                 });
