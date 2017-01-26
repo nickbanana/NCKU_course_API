@@ -1,6 +1,7 @@
 var express = require('express'); // dependency
 var app = express(); // add the object
 var router = express.Router();
+app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs'); //set the view engine to ejs
 app.set('port', process.env.PORT || 8080);
 
