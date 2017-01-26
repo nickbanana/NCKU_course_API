@@ -1,0 +1,998 @@
+[
+    {
+        "dept_name": "體育室",
+        "dept_code": "A2",
+        "category": "其他",
+        "institute": 0
+    },
+    {
+        "dept_name": "軍訓室",
+        "dept_code": "A3",
+        "category": "其他",
+        "institute": 0
+    },
+    {
+        "dept_name": "師培中心",
+        "dept_code": "A4",
+        "category": "其他",
+        "institute": 0
+    },
+    {
+        "dept_name": "計網中心",
+        "dept_code": "A5",
+        "category": "其他",
+        "institute": 0
+    },
+    {
+        "dept_name": "服務學習",
+        "dept_code": "A6",
+        "category": "其他",
+        "institute": 0
+    },
+    {
+        "dept_name": "共同英授",
+        "dept_code": "AA",
+        "category": "其他",
+        "institute": 0
+    },
+    {
+        "dept_name": "華語中心",
+        "dept_code": "AH",
+        "category": "其他",
+        "institute": 0
+    },
+    {
+        "dept_name": "不分系學程",
+        "dept_code": "AN",
+        "category": "不分學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "科學班",
+        "dept_code": "C0",
+        "category": "不分學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "外國語言",
+        "dept_code": "A1",
+        "category": "通識中心",
+        "institute": 0
+    },
+    {
+        "dept_name": "基礎國文",
+        "dept_code": "A7",
+        "category": "通識中心",
+        "institute": 0
+    },
+    {
+        "dept_name": "通識中心",
+        "dept_code": "A9",
+        "category": "通識中心",
+        "institute": 0
+    },
+    {
+        "dept_name": "公民歷史",
+        "dept_code": "AG",
+        "category": "通識中心",
+        "institute": 0
+    },
+    {
+        "dept_name": "中文系",
+        "dept_code": "B1",
+        "category": "文學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "外文系",
+        "dept_code": "B2",
+        "category": "文學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "歷史系",
+        "dept_code": "B3",
+        "category": "文學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "台文系",
+        "dept_code": "B5",
+        "category": "文學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "中文所",
+        "dept_code": "K1",
+        "category": "文學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "外文所",
+        "dept_code": "K2",
+        "category": "文學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "歷史所",
+        "dept_code": "K3",
+        "category": "文學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "台文所",
+        "dept_code": "K5",
+        "category": "文學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "藝術所",
+        "dept_code": "K4",
+        "category": "文學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "考古所",
+        "dept_code": "K7",
+        "category": "文學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "戲劇碩士學程",
+        "dept_code": "K8",
+        "category": "文學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "數學系",
+        "dept_code": "C1",
+        "category": "理學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "物理系",
+        "dept_code": "C2",
+        "category": "理學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "化學系",
+        "dept_code": "C3",
+        "category": "理學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "地科系",
+        "dept_code": "C4",
+        "category": "理學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "光電系",
+        "dept_code": "F8",
+        "category": "理學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "應數所",
+        "dept_code": "L1",
+        "category": "理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "物理所",
+        "dept_code": "L2",
+        "category": "理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "化學所",
+        "dept_code": "L3",
+        "category": "理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "地科所",
+        "dept_code": "L4",
+        "category": "理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "光電所",
+        "dept_code": "L7",
+        "category": "理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "電漿所",
+        "dept_code": "LA",
+        "category": "理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "發光二極",
+        "dept_code": "VF",
+        "category": "理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "工學院",
+        "dept_code": "E0",
+        "category": "工學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "機械系",
+        "dept_code": "E1",
+        "category": "工學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "化工系",
+        "dept_code": "E3",
+        "category": "工學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "資源系",
+        "dept_code": "E4",
+        "category": "工學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "材料系",
+        "dept_code": "E5",
+        "category": "工學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "土木系",
+        "dept_code": "E6",
+        "category": "工學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "水利系",
+        "dept_code": "E8",
+        "category": "工學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "工科系",
+        "dept_code": "E9",
+        "category": "工學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "能源學程",
+        "dept_code": "F0",
+        "category": "工學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "系統系",
+        "dept_code": "F1",
+        "category": "工學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "航太系",
+        "dept_code": "F4",
+        "category": "工學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "環工系",
+        "dept_code": "F5",
+        "category": "工學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "測量系",
+        "dept_code": "F6",
+        "category": "工學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "醫工系",
+        "dept_code": "F9",
+        "category": "工學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "機械所",
+        "dept_code": "N1",
+        "category": "工學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "化工所",
+        "dept_code": "N3",
+        "category": "工學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "資源所",
+        "dept_code": "N4",
+        "category": "工學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "材料所",
+        "dept_code": "N5",
+        "category": "工學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "土木所",
+        "dept_code": "N6",
+        "category": "工學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "水利所",
+        "dept_code": "N8",
+        "category": "工學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "自災所",
+        "dept_code": "NC",
+        "category": "工學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "工科所",
+        "dept_code": "N9",
+        "category": "工學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "能源學程",
+        "dept_code": "P0",
+        "category": "工學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "系統所",
+        "dept_code": "P1",
+        "category": "工學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "航太所",
+        "dept_code": "P4",
+        "category": "工學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "民航所",
+        "dept_code": "Q4",
+        "category": "工學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "環工所",
+        "dept_code": "P5",
+        "category": "工學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "測量所",
+        "dept_code": "P6",
+        "category": "工學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "醫工所",
+        "dept_code": "P8",
+        "category": "工學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "工程管理",
+        "dept_code": "N0",
+        "category": "工學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "海事所",
+        "dept_code": "NA",
+        "category": "工學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "尖端所",
+        "dept_code": "NB",
+        "category": "工學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "會計系",
+        "dept_code": "H1",
+        "category": "管理學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "統計系",
+        "dept_code": "H2",
+        "category": "管理學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "工資系",
+        "dept_code": "H3",
+        "category": "管理學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "企管系",
+        "dept_code": "H4",
+        "category": "管理學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "交管系",
+        "dept_code": "H5",
+        "category": "管理學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "會計所",
+        "dept_code": "R1",
+        "category": "管理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "統計所",
+        "dept_code": "R2",
+        "category": "管理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "工資所",
+        "dept_code": "R3",
+        "category": "管理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "企管所",
+        "dept_code": "R4",
+        "category": "管理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "交管所",
+        "dept_code": "R5",
+        "category": "管理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "電管所",
+        "dept_code": "R9",
+        "category": "管理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "ＥＭＢＡ",
+        "dept_code": "R0",
+        "category": "管理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "國企所",
+        "dept_code": "R6",
+        "category": "管理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "資管所",
+        "dept_code": "R7",
+        "category": "管理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "財金所",
+        "dept_code": "R8",
+        "category": "管理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "IIMBA",
+        "dept_code": "RA",
+        "category": "管理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "體健所",
+        "dept_code": "RB",
+        "category": "管理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "AMBA",
+        "dept_code": "RD",
+        "category": "管理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "管理學院",
+        "dept_code": "RZ",
+        "category": "管理學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "護理系",
+        "dept_code": "I2",
+        "category": "醫學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "醫技系",
+        "dept_code": "I3",
+        "category": "醫學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "醫學系",
+        "dept_code": "I5",
+        "category": "醫學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "物治系",
+        "dept_code": "I6",
+        "category": "醫學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "職治系",
+        "dept_code": "I7",
+        "category": "醫學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "藥學系",
+        "dept_code": "I8",
+        "category": "醫學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "護理所",
+        "dept_code": "T2",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "醫技所",
+        "dept_code": "T3",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "物治所",
+        "dept_code": "T6",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "職治所",
+        "dept_code": "T7",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "醫學院",
+        "dept_code": "S0",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "生化所",
+        "dept_code": "S1",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "藥理所",
+        "dept_code": "S2",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "生理所",
+        "dept_code": "S3",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "微免所",
+        "dept_code": "S4",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "基醫所",
+        "dept_code": "S5",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "臨藥科技",
+        "dept_code": "S6",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "環醫所",
+        "dept_code": "S7",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "行醫所",
+        "dept_code": "S8",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "臨醫所",
+        "dept_code": "S9",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "神經學程",
+        "dept_code": "SA",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "公衛在職",
+        "dept_code": "SB",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "分醫所",
+        "dept_code": "T1",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "口醫所",
+        "dept_code": "T4",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "公衛所",
+        "dept_code": "T8",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "細胞所",
+        "dept_code": "T9",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "健照所",
+        "dept_code": "TA",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "老年所",
+        "dept_code": "TC",
+        "category": "醫學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "法律系",
+        "dept_code": "D2",
+        "category": "社會科學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "政治系",
+        "dept_code": "D4",
+        "category": "社會科學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "經濟系",
+        "dept_code": "D5",
+        "category": "社會科學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "心理系",
+        "dept_code": "D8",
+        "category": "社會科學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "法律所",
+        "dept_code": "U2",
+        "category": "社會科學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "經濟所",
+        "dept_code": "U5",
+        "category": "社會科學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "心理所",
+        "dept_code": "U7",
+        "category": "社會科學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "政經所",
+        "dept_code": "U1",
+        "category": "社會科學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "教育所",
+        "dept_code": "U3",
+        "category": "社會科學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "電機系",
+        "dept_code": "E2",
+        "category": "電機資訊學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "資訊系",
+        "dept_code": "F7",
+        "category": "電機資訊學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "電機所",
+        "dept_code": "N2",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "微電所",
+        "dept_code": "Q1",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "電通所",
+        "dept_code": "Q3",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "南科專",
+        "dept_code": "Q6",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "奈積學程",
+        "dept_code": "Q7",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "多媒學程",
+        "dept_code": "ND",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "資訊所",
+        "dept_code": "P7",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "醫資所",
+        "dept_code": "Q5",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "製造所",
+        "dept_code": "P9",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "電力產專",
+        "dept_code": "V6",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "微波材料",
+        "dept_code": "V8",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "電子材料",
+        "dept_code": "V9",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "電機產業",
+        "dept_code": "VA",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "光材產專",
+        "dept_code": "VB",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "光產產專",
+        "dept_code": "VC",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "微波材料元件",
+        "dept_code": "VD",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "電子產專",
+        "dept_code": "VE",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "靜電保護",
+        "dept_code": "VG",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "磁性材料",
+        "dept_code": "VH",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "電子材料　",
+        "dept_code": "VJ",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "電機驅動",
+        "dept_code": "VK",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "微波電子",
+        "dept_code": "VL",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "積體製程",
+        "dept_code": "VM",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "微波元件",
+        "dept_code": "VN",
+        "category": "電機資訊學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "建築系",
+        "dept_code": "E7",
+        "category": "規劃與設計學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "都計系",
+        "dept_code": "F2",
+        "category": "規劃與設計學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "工設系",
+        "dept_code": "F3",
+        "category": "規劃與設計學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "建築所",
+        "dept_code": "N7",
+        "category": "規劃與設計學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "都計所",
+        "dept_code": "P2",
+        "category": "規劃與設計學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "工設所",
+        "dept_code": "P3",
+        "category": "規劃與設計學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "創意所",
+        "dept_code": "PA",
+        "category": "規劃與設計學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "科藝學程",
+        "dept_code": "PB",
+        "category": "規劃與設計學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "生科系",
+        "dept_code": "C5",
+        "category": "生物科學與科技學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "生技系",
+        "dept_code": "C6",
+        "category": "生物科學與科技學院",
+        "institute": 0
+    },
+    {
+        "dept_name": "生命所",
+        "dept_code": "L5",
+        "category": "生物科學與科技學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "生科所",
+        "dept_code": "L6",
+        "category": "生物科學與科技學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "生科學院",
+        "dept_code": "Z0",
+        "category": "生物科學與科技學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "生訊所",
+        "dept_code": "Z2",
+        "category": "生物科學與科技學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "熱植所",
+        "dept_code": "Z3",
+        "category": "生物科學與科技學院",
+        "institute": 1
+    },
+    {
+        "dept_name": "譯農所",
+        "dept_code": "Z5",
+        "category": "生物科學與科技學院",
+        "institute": 1
+    }
+]
