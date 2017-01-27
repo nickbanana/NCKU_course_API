@@ -7,11 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "cheerio": "latest",
     "ejs": "2.5.5",
     "express": "4.14.0",
-    "request": "latest",
-    "cheerio": "latest",
-    "regex":"latest"
+    "pg": "latest",
+    //"pg-hstore": "^2.3.2",
+    "regex": "latest",
+    "request": "latest"
+    //"sequelize": "^3.30.0"
   },
   "repository": {
     "type": "git",

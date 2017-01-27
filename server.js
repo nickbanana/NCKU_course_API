@@ -2,12 +2,16 @@ var express = require('express'); // dependency
 var fs = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
+var pg = require('pg');
 var app = express(); // add the object
 var router = express.Router();
+var client = new pg.Client(process.env.DATABASE_URL);
 var pattern = /\( ([\w\d]{2}) \W([^ ]*)/;
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs'); //set the view engine to ejs
 app.set('port', process.env.PORT || 8080);
+pg.defaults.ssl = true;
+client.connect(function(err){if(err) throw err;});
 
 // use res.render to load up an ejs view file
 
@@ -21,6 +25,7 @@ router.get('/db_update',function(req,res){
     var detail_url = 'http://course-query.acad.ncku.edu.tw/qry/qry001.php?dept_no=';
     var list = [];
     var class_list = [];
+    var result = [];
 
     request(dept_url, function(error, response, html){
         if(!error){
@@ -34,34 +39,49 @@ router.get('/db_update',function(req,res){
                     var result = pattern.exec(whole_dept_name);
                     dept_code = result[1];
                     dept_name = result[2];
-                    dept_json.dept_name = dept_name;
-                    dept_json.dept_code = dept_code;
-                    dept_json.category = category;
-                    dept_json.institute = 0;
-                    list.push(dept_json);
-                    dept_json = { "dept_name": "", "dept_code": "" , "category": "", "institute": 0};
+                    client.query('INSERT INTO dept (name, code, category, institute) values($1, $2, $3, $4);',[dept_name,dept_code,category,0]);
+                    //dept_json.dept_name = dept_name;
+                    //dept_json.dept_code = dept_code;
+                    //dept_json.category = category;
+                    //dept_json.institute = 0;
+                    //list.push(dept_json);
+                    //dept_json = { "dept_name": "", "dept_code": "" , "category": "", "institute": 0};
                 });
                 $(element).find('.tbody').find('.institute').each(function(index,element){
                     whole_dept_name = $(element).find('a').text();
                     var result = pattern.exec(whole_dept_name);
                     dept_code = result[1];
                     dept_name = result[2];
-                    dept_json.dept_name = dept_name;
-                    dept_json.dept_code = dept_code;
-                    dept_json.category = category;
-                    dept_json.institute = 1;
-                    list.push(dept_json);
-                    dept_json = { "dept_name": "", "dept_code": "" , "category": "", "institute": 0};
+                    client.query('INSERT INTO dept (name, code, category, institute) values($1, $2, $3, $4);',[dept_name,dept_code,category,1]);
+                    //dept_json.dept_name = dept_name;
+                    //dept_json.dept_code = dept_code;
+                    //dept_json.category = category;
+                    //dept_json.institute = 1;
+                    //list.push(dept_json);
+                    //dept_json = { "dept_name": "", "dept_code": "" , "category": "", "institute": 0};
                 });
             });
             //res.send(list);
-            fs.writeFile('dept.json', JSON.stringify(list,null,4), function(err){
-                console.log('output complete');
-            })
+            //fs.writeFile('dept.json', JSON.stringify(list,null,4), function(err){
+            //    console.log('output complete');
+            //})
+        }
+        else
+        {
+            //handle error;
         }
     });
+    const query = client.query('SELECT * FROM dept ORDER BY ID ASC');
 
-    list.forEach(function(value,index,array){
+    query.on('row', (row)=> {
+        result.push(row);
+    });
+
+    query.on('end', ()=>{
+        //done();
+        res.json(result);
+    });
+    /*list.forEach(function(value,index,array){
                 var get_data = detail_url + value.dept_code;
                 request(get_data, function(error, response, html){
                     if(!error)
@@ -75,7 +95,7 @@ router.get('/db_update',function(req,res){
                     }
                 });
                 
-    })
+    })*/
 
 });
 
